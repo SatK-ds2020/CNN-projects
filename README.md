@@ -26,6 +26,35 @@ Transfer Learning is a machine learning approach where a model trained on a larg
    Early layers are frozen, meaning their weights are not updated during training, while only the task-specific layers are trained using the medical dataset. This approach is ideal for datasets with limited size, like breast cancer detection in mammograms.
 
 ---
+### Pre-Trained Models for Disease Detection
+
+Pre-trained models have been widely used in medical imaging for disease detection, leveraging their ability to extract features from visual data like X-rays, CT scans, and MRIs. Below are some notable pre-trained models and their applications:
+
+1. **ResNet (Residual Networks)**:
+   - Used for detecting lung cancer nodules in CT scans and classifying chest X-rays for pneumonia or COVID-19.
+   - Its deep architecture is effective for extracting complex features from medical images.
+
+2. **DenseNet (Dense Convolutional Networks)**:
+   - Applied in breast cancer detection using mammograms and brain tumor classification in MRI scans.
+   - Known for efficient feature propagation and reduced computational costs.
+
+3. **InceptionV3**:
+   - Utilized for skin cancer classification and diabetic retinopathy detection in retinal images.
+   - Its multi-scale feature extraction capabilities make it suitable for diverse medical imaging tasks.
+
+4. **MobileNet**:
+   - Ideal for lightweight applications like mobile-based disease detection tools, including tuberculosis detection in chest X-rays.
+   - Efficient for deployment in resource-constrained environments.
+
+5. **VGG (Visual Geometry Group)**:
+   - Used for histopathology image analysis to identify cancerous cells and classify tissue samples.
+   - Its simplicity and consistent architecture are beneficial for medical datasets.
+
+6. **EfficientNet**:
+   - Applied in multi-class disease classification tasks, such as identifying various types of brain tumors or liver diseases.
+   - Balances accuracy and computational efficiency.
+
+These models are often fine-tuned or adapted using transfer learning to suit specific medical imaging tasks. 
 
 #### Example: Tumor Detection in Medical Imaging
 
